@@ -28,6 +28,7 @@
 		<b>Factuurnummer:</b> <?php echo $_POST['desc']['factno'] ?><Br>
 		<b>Factuurdatum:</b> <?php echo date_format($date, 'd-m-Y') ?><br>
 		<b>Ordernummer:</b> <?php echo $_POST['desc']['orderno'] ?></p>
+		<p><b>Comments:</b> <?php echo $_POST['desc']['factnotice'] ?></p>
 		</td>
 	 </tr>
 	 <tr style="width: 220px; float:right;">
