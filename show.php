@@ -70,6 +70,11 @@
 	  <td style="width:363px; float:left; display:block;border: none;">
 	  	<p><?php echo $v[0] ?></p>
 	  </td>
+	
+         <td style="width:363px; float:left; display:block;border: none;">
+        <p><b>Comments:</b> <?php echo $_POST['desc']['factnotice'] ?></p>
+         </td>
+		 
 	  <td style="width: 125px; float:left; display:block;border: none;">
 	  	<p>&euro; <?php echo number_format($v[1], 2, ',', '.') ?></p>
 	  </td>
